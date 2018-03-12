@@ -70,7 +70,7 @@ public class rent
          	System.out.println("3. Холодная вода:" + ob.total_coldWater + " руб.");
          	System.out.println("4. Газ:" + ob.total_houseGas + " руб.");
          	System.out.println("5. Электричество:" + ob.total_houseElectricity + " руб.");
-        
+         	System.out.println("Общая сумма:" + ob.total_sum + " руб.");
         inpt.close();
     }
 }
